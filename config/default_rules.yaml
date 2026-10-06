@@ -1,0 +1,24 @@
+# BioSyn Primer Batch QC — Default Rules
+# All thresholds are configurable. These are starting points, not universal standards.
+
+qc_rules:
+  min_length: 18
+  max_length: 25
+  gc_min: 40.0
+  gc_max: 60.0
+  tm_min: 55.0
+  tm_max: 65.0
+  homopolymer_max: 4        # flag runs of this many identical bases or longer
+
+pcr_conditions:
+  salt_conc_mM: 50.0
+  mg_conc_mM: 1.5
+  primer_conc_uM: 0.25
+  tm_method: basic          # basic | nearest_neighbor
+
+warning_levels:
+  homopolymer: WARNING
+  strong_self_comp: WARNING
+  hairpin_high: WARNING
+  out_of_range: REVIEW
+  ambiguous_bases: REVIEW

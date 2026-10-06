@@ -1,0 +1,11 @@
+Primer_ID,Sequence,Name,Target,Gene,Direction
+P001,ATGCGTACGTTAGCGCTA,Forward Primer 1,Exon 1,GAPDH,Forward
+P002,TAGCGCTAGCTAGCTAGCT,Reverse Primer 1,Exon 1,GAPDH,Reverse
+P003,GGGAATTCGGGAATTCGGG,Homopolymer Test,Control,ACTB,Forward
+P004,ATCGATCGATCGATCGAT,Balanced Primer,Exon 2,TP53,Forward
+P005,GCGCGCGCGCGCGCGCGC,High GC Test,Promoter,MYC,Forward
+P006,ATATATATATATATATAT,Low GC Test,UTR,BRCA1,Reverse
+P007,ACGTACGTACGTACGTAC,Standard Primer,Exon 3,EGFR,Forward
+P008,TTTTTTTTTTTTTTTTTT,Homopolymer T,Control,GAPDH,Reverse
+P009,ATCGNNNNATCGATCGAT,Ambiguity Test,Exon 4,KRAS,Forward
+P010,GGATCCGGATCCGGATCC,Repeat Warning,Promoter,MMP9,Reverse

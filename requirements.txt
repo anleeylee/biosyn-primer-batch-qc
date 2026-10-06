@@ -1,0 +1,13 @@
+# ============================================================
+# BioSyn Primer Batch QC — Python Dependencies
+# Python 3.10+ required
+# ============================================================
+
+# XLSX input reading and XLSX report export
+openpyxl>=3.1.0
+
+# ----------------------------------------------------------
+# Core analysis engine (Tm, GC%, hairpin, dimer detection)
+# uses only Python standard library:
+#   argparse, csv, dataclasses, logging, math, pathlib, typing
+# ============================================================

@@ -1,0 +1,5 @@
+"""BioSyn Primer Batch QC — local-first batch primer quality control."""
+__version__ = "1.0.0"
+__author__ = "BioSyn Inc."
+__license__ = "MIT"
+__url__ = "https://biosyn-inc.com/"
